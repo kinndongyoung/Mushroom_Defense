@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="9">
+ <tileset firstgid="1" source="tmw_desert_spacing.tsx"/>
+ <tileset firstgid="49" source="Meta.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyTY2BgkINiBSQ2sVgDDeNSJ0+meXokuIUY9yvhwdQwH9keUv2uh8cuXO7D5x+YHmz24zOP1DRATrgqQN1FTNohJq3gE4PZRY55AMDmGNI=
+  </data>
+ </layer>
+ <layer id="3" name="Meta" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAAQwbSgSEaxqeOHPNIcRMxarGZT6w95LqFFL/j0oPLDHz+MURSg88uYsQJAVLDlZJ4xmYGMWLkmAcA0xkLTA==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="SpawnPoint" x="-20" y="112"/>
+  <object id="3" name="move1" x="206" y="111">
+   <ellipse/>
+  </object>
+  <object id="4" name="move2" x="208" y="240">
+   <ellipse/>
+  </object>
+  <object id="5" name="move3" x="399" y="240">
+   <ellipse/>
+  </object>
+  <object id="6" name="move4" x="401" y="175">
+   <ellipse/>
+  </object>
+  <object id="7" name="move5" x="683" y="180">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
