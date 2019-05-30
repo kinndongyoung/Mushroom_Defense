@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="16" height="11" tilewidth="64" tileheight="64" infinite="0" nextlayerid="9" nextobjectid="11">
+ <tileset firstgid="1" source="tmw_desert_spacing1.tsx"/>
+ <tileset firstgid="49" source="meta_tile3.tsx"/>
+ <layer id="3" name="Tile Layer 1" width="16" height="11">
+  <data encoding="base64" compression="zlib">
+   eJyTY2BgkINiDSQsjyQOw3pofA0savBhJSSMy0x0rIFkjxIajW4mOsZmP7p+fG5Fdxup+nG5Cd1sBSjGZhcus4mxnxg5UsIPmx5C8aeOFoe44heXPChc5PGoAQCRNhYc
+  </data>
+ </layer>
+ <objectgroup id="7" name="Objects">
+  <object id="1" name="SpawnPoint" x="-44" y="220"/>
+  <object id="2" name="move1" x="416" y="223"/>
+  <object id="3" name="move2" x="419" y="353"/>
+  <object id="4" x="733" y="355" height="1"/>
+  <object id="5" name="move4" x="737" y="98"/>
+  <object id="6" name="move5" x="863" y="98"/>
+  <object id="7" name="move6" x="863" y="548"/>
+  <object id="8" name="move7" x="1097" y="546"/>
+  <object id="10" name="move3" x="733" y="351"/>
+ </objectgroup>
+ <layer id="6" name="Meta" width="16" height="11">
+  <data encoding="base64" compression="zlib">
+   eJwzYmBgMIJiQzRshIbRxbCpwYexmU3IDGT16DQ2NxPjfmLcjc0McvRjcxO2MCAlbIm1nxg5UsKP2HRCKM7JlcemBgA61SIj
+  </data>
+ </layer>
+</map>
