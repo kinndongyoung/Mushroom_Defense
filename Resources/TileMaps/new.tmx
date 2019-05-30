@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="16" height="9" tilewidth="80" tileheight="80" infinite="0" nextlayerid="5" nextobjectid="11">
+ <tileset firstgid="1" source="map1.tsx"/>
+ <tileset firstgid="2" source="map2.tsx"/>
+ <objectgroup id="3" name="Objects">
+  <object id="1" name="SpawnPoint" x="-101.333" y="337.333" width="56" height="45.3333"/>
+  <object id="2" name="move1" x="358.666" y="366.667"/>
+  <object id="3" name="move2" x="362.667" y="192"/>
+  <object id="4" name="move3" x="758.667" y="194.667"/>
+  <object id="5" name="move4" x="761.333" y="286.667"/>
+  <object id="6" name="move5" x="1002.67" y="284"/>
+  <object id="7" name="move6" x="1000" y="114.667"/>
+  <object id="8" name="move7" x="1244" y="116"/>
+  <object id="9" name="move8" x="1241.33" y="814.667"/>
+ </objectgroup>
+ <layer id="1" name="Tile Layer 1" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYKQjZkLDhOTR1eFiExLDZRY+u/CZSar99NRPjJ/wmUtKXAIA0NAAuA==
+  </data>
+ </layer>
+</map>
