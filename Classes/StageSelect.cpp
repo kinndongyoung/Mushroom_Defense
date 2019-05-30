@@ -1,6 +1,7 @@
 #include "StageSelect.h"
 #include "SimpleAudioEngine.h"
 #include "HelloWorldScene.h"
+#include "StageOneScene.h"
 USING_NS_CC;
 
 using namespace CocosDenshion;
@@ -72,7 +73,9 @@ void StageSelScene::StageSelectMenu(Ref *pSender)
 	{
 	case TAG_STAGE_ONE:
 	{
-		
+		this->removeChild(stageBackground);
+		auto scene = TransitionFadeTR::create(0.5f, StageOneScene::createScene());
+		Director::getInstance()->replaceScene(scene);
 	}
 	break;
 	case TAG_STAGE_TWO:
