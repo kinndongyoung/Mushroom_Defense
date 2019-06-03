@@ -29,7 +29,8 @@ public:
 	cocos2d::Vec2			EnemyPosition;
 	cocos2d::Sprite*		Enemy[10];
 	cocos2d::TMXTiledMap*	tmap;
-
+	cocos2d::Sprite*		Tower;
+	cocos2d::Vec2			TowerPosition;
 
 };
 

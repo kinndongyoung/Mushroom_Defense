@@ -23,8 +23,9 @@ bool StageOneScene::init()
 	}
 
 	auto tmap = TMXTiledMap::create("/TileMaps/Test1.tmx");
-
-	this->addChild(tmap, 0, 11);
+	tmap->setAnchorPoint(Vec2(0,0));
+	tmap->setScale(1, 1);
+	this->addChild(tmap);
 
 	Size visibleSize = Director::getInstance()->getVisibleSize();
 	Vec2 origin = Director::getInstance()->getVisibleOrigin();
@@ -104,6 +105,28 @@ void StageOneScene::onExit()
 
 bool StageOneScene::onTouchBegan(Touch *touch, Event *event)
 {
+	auto touchPoint = touch->getLocation();
+	auto tmap = TMXTiledMap::create("/TileMaps/Test1.tmx");
+	tmap->setScale(1.0, 1.0);
+	tmap->setAnchorPoint(Point::ZERO);
+
+	auto objects = tmap->getObjectGroup("Objects");
+
+	ValueMap m_tower = objects->getObject("m_tower");
+	int x = m_tower["x"].asInt();
+	int y = m_tower["y"].asInt();
+
+	int m_x1 = m_tower["x"].asInt();
+	int m_y1 = m_tower["y"].asInt();
+	
+	if (touchPoint.x > m_x1 - 20 && touchPoint.x<m_x1 + 40 && touchPoint.y>m_y1 - 20 && touchPoint.y > m_y1 + 20)
+	{
+		auto texture = Director::getInstance()->getTextureCache()->addImage("/monster/Monster_1.png");
+		auto Tower = Sprite::createWithTexture(texture, Rect(0, 0, 60, 60));
+		Tower->setPosition(m_x1+20, m_y1+20);
+		this->addChild(Tower);
+	}
+	
 	return true;
 }
 

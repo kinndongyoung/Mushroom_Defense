@@ -28,7 +28,7 @@ bool HelloWorld::init()
 	mainBackground = Sprite::create("mainbase.png");
 	mainBackground->setPosition(Point::ZERO);
 	mainBackground->setAnchorPoint(Point::ZERO);
-	mainBackground->setScale(0.8, 0.8);
+	mainBackground->setScale(1.0, 1.0);
 	this->addChild(mainBackground);
 
 	auto visSize = Director::getInstance()->getVisibleSize();

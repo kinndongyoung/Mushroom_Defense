@@ -34,7 +34,7 @@ bool StageSelScene::init()
 	stageBackground = Sprite::create("stageselectbase.png");
 	stageBackground->setPosition(Point::ZERO);
 	stageBackground->setAnchorPoint(Point::ZERO);
-	stageBackground->setScale(0.8, 0.8);
+	stageBackground->setScale(1.0, 1.0);
 	this->addChild(stageBackground);
 
 	auto visSize = Director::getInstance()->getVisibleSize();

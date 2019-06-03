@@ -65,7 +65,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 #endif
         director->setOpenGLView(glview);
     }
-	director->getOpenGLView()->setDesignResolutionSize(1280, 720, ResolutionPolicy::EXACT_FIT);
+	director->getOpenGLView()->setDesignResolutionSize(1280, 720, ResolutionPolicy::FIXED_HEIGHT);
     // turn on display FPS
     director->setDisplayStats(false);
 
@@ -73,7 +73,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setAnimationInterval(1.0f / 60);
 
     // Set the design resolution
-    glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::EXACT_FIT);
+    glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::FIXED_HEIGHT);
     auto frameSize = glview->getFrameSize();
 
     // if the frame's height is larger than the height of medium size.
