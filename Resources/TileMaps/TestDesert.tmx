@@ -1,32 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="9">
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="34">
  <tileset firstgid="1" source="tmw_desert_spacing.tsx"/>
  <tileset firstgid="49" source="Meta.tsx"/>
- <layer id="1" name="Tile Layer 1" width="20" height="10">
+ <layer id="6" name="Tile Layer 1" width="40" height="23">
   <data encoding="base64" compression="zlib">
-   eJyTY2BgkINiBSQ2sVgDDeNSJ0+meXokuIUY9yvhwdQwH9keUv2uh8cuXO7D5x+YHmz24zOP1DRATrgqQN1FTNohJq3gE4PZRY55AMDmGNI=
+   eJzVlm1LAzEQhIMfbK1gRbQvvt1pVWq1xf//69xAFoZxk2z0xPPDQ2luMzfNzobOQgizkXMpXIyMK/B3KrwQ94C1fkifPdVyPWthTdx7LEwSU1g/IX+Wxk9ZC9cFboQzYZ44h73qr7Q/pxn3byvEmgfhscDG4a+0P6dZ86c9V39Pwg54Bq2FsEysDH87J6jJ/vr02WXOL+6ZANb6FLx1oT1/qNna3w30cJ5Z197G3/ph+GN9nivU5GdW/Xf8dYne4Y9zi5r8zKpnf0vAWl+lc1OPQ/rrHf5KWdHMdcmjp788V6hpzZy15pkPzoWnv334minVfA/+u3If6vmr3X/oT31ZPa7dtbU7cwh/pQzm7loPbyE/H7X7Wf1pLjHHi4wmZ8Y6g9y5YC5bstKSJX43fz84/f0Glj/vPCuvoT0jLVkqvXsoOH/8n/Kv+U/+boWjkXEH/sbMJz2fWy4=
   </data>
  </layer>
- <layer id="3" name="Meta" width="20" height="10">
+ <layer id="7" name="Meta" width="40" height="23" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYEAAQwbSgSEaxqeOHPNIcRMxarGZT6w95LqFFL/j0oPLDHz+MURSg88uYsQJAVLDlZJ4xmYGMWLkmAcA0xkLTA==
+   eJztlMEKACAIQ/0l///nOhaS4iKtwx4IXtxkoCITFRw11UXWq3o/RLMzn9XTq8zsK9TpszO3sdqeV5R31X473Wi/H0AzqrzfU+2Ov7fzQO63+y8TQgghhAw8CwtM
   </data>
  </layer>
  <objectgroup id="2" name="Objects">
-  <object id="1" name="SpawnPoint" x="-20" y="112"/>
-  <object id="3" name="move1" x="206" y="111">
+  <object id="1" name="SpawnPoint" x="-38" y="177.333"/>
+  <object id="10" name="move1" x="367.333" y="176"/>
+  <object id="11" name="move2" x="372.667" y="433.333"/>
+  <object id="12" name="move3" x="784" y="428"/>
+  <object id="13" name="move4" x="787.333" y="140.667"/>
+  <object id="14" name="move5" x="978.667" y="140.667"/>
+  <object id="15" name="move6" x="982.667" y="530.667"/>
+  <object id="16" name="move7" x="1361.33" y="535.333"/>
+  <object id="17" name="TowerMenu" x="650" y="668"/>
+  <object id="18" x="90" y="1206"/>
+  <object id="19" name="SpawnPoint2" x="-42.6667" y="596"/>
+  <object id="20" name="tower1" x="269" y="321.333">
    <ellipse/>
   </object>
-  <object id="4" name="move2" x="208" y="240">
+  <object id="21" name="tower2" x="298.667" y="449.333">
    <ellipse/>
   </object>
-  <object id="5" name="move3" x="399" y="240">
+  <object id="22" name="tower3" x="481.333" y="332">
    <ellipse/>
   </object>
-  <object id="6" name="move4" x="401" y="175">
+  <object id="23" name="tower4" x="642.667" y="333.333">
    <ellipse/>
   </object>
-  <object id="7" name="move5" x="683" y="180">
+  <object id="24" name="tower5" x="478.667" y="528">
+   <ellipse/>
+  </object>
+  <object id="25" name="tower6" x="606.667" y="508">
+   <ellipse/>
+  </object>
+  <object id="26" name="tower7" x="766.667" y="504">
+   <ellipse/>
+  </object>
+  <object id="27" name="tower8" x="877.333" y="250.667">
+   <ellipse/>
+  </object>
+  <object id="28" name="tower9" x="878.667" y="405.333">
+   <ellipse/>
+  </object>
+  <object id="29" name="tower10" x="1085.33" y="124">
+   <ellipse/>
+  </object>
+  <object id="30" name="tower11" x="1056" y="257.333">
+   <ellipse/>
+  </object>
+  <object id="31" name="tower12" x="1081.33" y="413.333">
+   <ellipse/>
+  </object>
+  <object id="32" x="1093.33" y="860">
+   <ellipse/>
+  </object>
+  <object id="33" x="684" y="802.667">
    <ellipse/>
   </object>
  </objectgroup>
